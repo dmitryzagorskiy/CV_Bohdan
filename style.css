@@ -40,14 +40,19 @@ body
    height: 100%;
    object-fit: cover;
 }
-
+.about
+{
+   font-size: 20px;
+   display: flex;
+}
 .profileText
 {
-   position: absolute;
+   position: relative;
    display: flex;
    align-items: center;
    text-align: center;
    justify-content: center;
+   width:900px;
 }
 
 .profileText h3 
@@ -56,8 +61,7 @@ body
    letter-spacing: 0.1em;
    line-height: 1.2em;
    font-weight: 600;
-   color: #333;
-   padding-left: 300px;
+   padding-left: 115px;
    padding-top: 15px;
 }
 
@@ -67,6 +71,7 @@ body
    font-size: 0.5em;
    font-weight: 300;
    top: -10px;
+   color: #333;
 }
 
 .contentBox
@@ -76,6 +81,7 @@ body
    min-height: 600px;
    padding: 300px 50px 40px 80px;
    font-size: 2em;
+   padding-top: 50px;
 }
 
 .leftSide
@@ -84,7 +90,7 @@ body
    display:flex;
    flex-direction: column;
    align-items: flex-end;
-   padding-right: 10px;
+   padding-right: 15px;
 }
 
 .contentBox h3 span
@@ -97,6 +103,15 @@ body
    color: #333;
 }
 
+.rightSide
+{
+   padding-left: 20px;
+}
+
+.skills
+{
+   padding-top: 60px;
+}
 
 .skills li
 {
@@ -128,11 +143,15 @@ body
 
 .percent div
 {
-   position: absolute;
+   position: relative;
    top: 0;
    left: 0;
    height: 100%;
    background: #333;
+}
+.year_company
+{
+   padding-top: 10px;
 }
 
 .year_company h5
@@ -167,7 +186,7 @@ h4
 
 .education
 {
-   padding-top: 30px;
+   padding-top: 40px;
 }
 
 .degree
@@ -189,4 +208,30 @@ h4
 {
    background-color: #333;
    min-width:3px;
+}
+
+.language
+{
+   padding-top: 35px;
+}
+
+.language p
+{
+   font-size: 18px;
+   display:flex;
+   justify-content: flex-end
+}
+
+h3 
+{
+   padding-top: 20px;
+}
+
+li
+{
+   display: flex;
+   font-size: 20px;
+   list-style: none;
+   justify-content: flex-end;
+   cursor: pointer;
 }
