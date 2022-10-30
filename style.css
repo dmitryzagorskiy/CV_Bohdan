@@ -20,7 +20,7 @@ body
    width: 100%;
    max-width: 1000px;
    margin: 50px;
-   padding: auto;
+   /*padding: auto;*/
 }
 
 .top
@@ -112,11 +112,26 @@ img
    flex: 1;
 }
 
+.expiriance h3
+{
+   padding-left: 15px;
+}
+
+.expiriance h5
+{
+   padding-top: 8px;
+}
+
 .skills
 {
-   padding-top: 60px;
-   width: 55%;
+   padding-top: 120px;
+   width: 50%;
    text-align: right;
+}
+
+.skills h3
+{
+   padding-right: 15px;
 }
 
 .skills li
@@ -125,7 +140,7 @@ img
    flex-direction: column;
    list-style: none;
    justify-content: flex-end;
-
+   padding-top: 8px;
 }
 
 .skills li span
@@ -157,6 +172,7 @@ img
    height: 100%;
    background: #333;
 }
+
 .year_company
 {
    padding-top: 10px;
@@ -197,6 +213,17 @@ h4
    padding-top: 40px;
 }
 
+.education h3
+{
+   padding-left: 15px;
+}
+
+.education h5
+{
+   padding-top: 12px;
+   color: #333;
+}
+
 .degree
 {
    font-size: 23px;
@@ -204,7 +231,7 @@ h4
    list-style: none;
 }
 
-.university 
+.university
 {
    font-size: 18px;
    font-weight: 600;
@@ -216,11 +243,14 @@ h4
 {
    background-color: #333;
    min-width:3px;
+   padding-top: 2px;
+   height: 955px;
 }
 
-.language
+.language h3
 {
    padding-top: 35px;
+   padding-right: 15px;
 }
 
 .language p
@@ -228,11 +258,27 @@ h4
    font-size: 18px;
    display: flex;
    justify-content: flex-end;
+   padding-top: 8px;
+}
+
+.contactInfo h3
+{
+   display: flex;
+   justify-content: flex-end;
+   padding-right: 15px;
+   padding-top: 50px;
+}
+
+.contactInfo span
+{
+   padding-top: 13px;
+   padding-left: 4px;
 }
 
 h3 
 {
-   padding-top: 20px;
+   padding-top: 5px;
+   font-size: 30px;
 }
 
 li
@@ -241,5 +287,12 @@ li
    font-size: 20px;
    list-style: none;
    justify-content: flex-end;
-   cursor: pointer;
 }
+
+a
+{
+   text-decoration: none;
+   color: black;
+   padding-top: 8px;
+}
+
